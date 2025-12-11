@@ -6,9 +6,11 @@
 /*   By: agomes-f <agomes-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/11 18:23:17 by agomes-f          #+#    #+#             */
-/*   Updated: 2025/12/11 18:47:48 by agomes-f         ###   ########.fr       */
+/*   Updated: 2025/12/11 19:29:12 by agomes-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "get_next_line.h"
 
 char *get_next_line(int fd)
 {
