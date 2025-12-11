@@ -6,13 +6,24 @@
 /*   By: agomes-f <agomes-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/11 18:23:19 by agomes-f          #+#    #+#             */
-/*   Updated: 2025/12/11 18:27:58 by agomes-f         ###   ########.fr       */
+/*   Updated: 2025/12/11 18:53:29 by agomes-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_GET_NEXT_LINE_H
-# define FT_GET_NEXT_LINE_H
+#include "get_next_line.h"
 
-# include <unistd.h>
-
-#endif
+size_t ft_strlen(char *str)
+{
+    int i;
+    size_t len;
+    
+    len = 0;    
+    if (!str)
+        return (NULL);
+    while (str[i] != '\0')
+    {
+        i++;   
+        len++;
+    }
+    return (len);
+}
