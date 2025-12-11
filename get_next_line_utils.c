@@ -6,7 +6,7 @@
 /*   By: agomes-f <agomes-f@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/11 18:23:19 by agomes-f          #+#    #+#             */
-/*   Updated: 2025/12/11 18:53:29 by agomes-f         ###   ########.fr       */
+/*   Updated: 2025/12/11 18:54:26 by agomes-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ size_t ft_strlen(char *str)
     size_t len;
     
     len = 0;    
+    i = 0;
     if (!str)
         return (NULL);
     while (str[i] != '\0')
